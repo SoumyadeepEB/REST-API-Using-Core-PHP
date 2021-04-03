@@ -62,7 +62,7 @@
             <button type="submit" class="btn btn-success" name="submit">Modify</button>
             <a href="index.php" class="btn btn-default">Back</a>
         </form>
-        <?php }else{ echo '<h1>'.ucfirst($result->message).'</h1><a href="index.php" class="btn btn-default">Back</a>'; } ?> 
+        <?php }else{ echo '<h1>'.ucfirst($fetch->message).'</h1><a href="index.php" class="btn btn-default">Back</a>'; } ?> 
     </div>
 </body>
 </html>
